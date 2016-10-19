@@ -1,0 +1,136 @@
+@font-face {
+    font-family: futura_book;
+    src: url(fonts/FuturaLT-Book.ttf);
+}
+
+@font-face {
+    font-family: futura_bold;
+    src: url(fonts/FuturaLT-Bold.ttf);
+}
+
+@font-face {
+    font-family: futura_light;
+    src: url(fonts/FuturaLT-Light.ttf);
+}
+
+@font-face {
+    font-family: accid;
+    src: url(fonts/accid___.ttf);
+}
+
+@font-face {
+    font-family: georgia;
+    src: url(fonts/Georgia.ttf);
+}
+
+@font-face {
+    font-family: romance;
+    src: url(fonts/Romance-Serif.ttf);
+}
+
+@font-face {
+    font-family: garamond;
+    src: url(fonts/Adobe-Garamond-Pro-Italic.ttf);
+}
+
+@font-face {
+    font-family: apple_garamond;
+    src: url(fonts/AppleGaramond.ttf);
+}
+
+@font-face {
+    font-family: helvetica_neue;
+    src: url(fonts/HelveticaNeue-UltraLight.ttf);
+}
+
+
+body{
+	font-family: georgia;
+	width: auto;
+	max-width: 600;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgb(255, 255, 255);
+}
+
+strong.blue{
+	color:#1DA4EF;
+}
+strong.yellow{
+	color:#FFFF99;
+}
+strong.red{
+	color:#F08080;
+}
+
+p{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: justify;
+    text-justify: inter-word;/*only in IE*/
+}
+
+h1{
+	font-family: futura_bold;
+}
+
+img{
+	max-width: 100%;
+	width: auto;
+	height: auto;
+}
+
+video{
+	max-width: 100%;
+	width: 100%;
+	height: auto;
+}
+
+code{
+	background-color: #313131;
+	color: #FFFFFF;
+	display: block;
+	padding:10px;
+	overflow:scroll;
+}
+
+hr{
+	border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.show_more:hover{
+	cursor: pointer;
+}
+
+.pub_date{
+	color: #999999;
+	text-align: right;
+}
+
+.show_more{
+	text-align: center;
+	color: #555555;
+}
+
+.post_style{
+	background-color: #ffffff;
+
+}
+
+.name{
+	font-family: helvetica_neue;
+	font-size: 130%;
+}
+
+.links{
+	float:right;
+	text-align: right;
+}
+
+.header{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
